@@ -16,7 +16,8 @@ library(ggplot2)
 library(textrecipes)
 library(bslib)
 
-
+onehot_rec <- readRDS("onehot_prep.rds")
+model <- load_model("my_dense_model.keras")
 
 # Список названий классов 
 class_names <- c("Business", "Sci/Tech", "Sports", "World") 
