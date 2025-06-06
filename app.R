@@ -24,7 +24,7 @@ class_names <- c("Business", "Sci/Tech", "Sports", "World")
 
 ui <- fluidPage(
   #theme = shinytheme("cyborg"),
-  theme = bs_theme(bootswatch = "superhero"),
+  theme = bs_theme(bootswatch = "yeti"),
   titlePanel("📰 Классификатор новостей"),
   sidebarLayout(
     sidebarPanel(
